@@ -3,7 +3,7 @@
 A brief overview of the tools and technologies used to develop and replicate this website.
 
 **1. AI Development Tool**
-- **Google Antigravity (AGY):** Used for website analysis, AI-assisted coding, component development, Three.js implementation, refactoring, and debugging.
+- **Cursor IDE** Used for website analysis, AI-assisted coding, component development, Three.js implementation, refactoring, and debugging.
 
 **2. Programming Languages**
 - **TypeScript (TS/TSX):** Application logic and React components.
