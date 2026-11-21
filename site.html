@@ -1,0 +1,1094 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Concept preview for a pitch: keep out of search engines until the client approves it -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#06080e">
+<title>ImportNow — Import Directly from China to India</title>
+<meta name="description" content="End-to-end imports from China to India: product sourcing, factory inspection, shipping, customs clearance and doorstep delivery. Own company in Shanghai. Trusted by 500+ Indian businesses.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"}}</script>
+<style>
+:root{
+  --bg:#06080e; --bg2:#0b0f19; --panel:rgba(255,255,255,.035); --panel2:rgba(255,255,255,.06);
+  --line:rgba(255,255,255,.09); --text:#eef2f7; --muted:#97a1b0; --dim:#677284;
+  --red:#ef3b2d; --red2:#ff6a3d; --saffron:#ff9933; --green:#1fa34a; --gold:#ffcf5c; --cyan:#4cc9f0;
+  --radius:18px; --max:1200px;
+  --grad:linear-gradient(100deg,var(--red) 0%,var(--red2) 50%,var(--saffron) 100%);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font:400 16px/1.6 Inter,system-ui,sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:Sora,Inter,sans-serif;line-height:1.12;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}
+img,svg{display:block}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 12px/1 Inter;letter-spacing:.14em;text-transform:uppercase;color:var(--red2)}
+.eyebrow::before{content:"";width:22px;height:2px;background:var(--grad);border-radius:2px}
+.section{padding:120px 0;position:relative}
+.section-head{max-width:720px;margin-bottom:56px}
+.section-head h2{font-size:clamp(32px,4.4vw,54px);margin:14px 0 16px}
+.section-head p{color:var(--muted);font-size:18px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 24px;border-radius:999px;font:600 15px/1 Inter;transition:transform .25s,box-shadow .25s,background .25s;cursor:pointer;border:0}
+.btn-primary{background:var(--grad);color:#fff;box-shadow:0 10px 30px -10px rgba(239,59,45,.7)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 40px -10px rgba(239,59,45,.85)}
+.btn-ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+.btn-ghost:hover{background:rgba(255,255,255,.1)}
+.flag{display:inline-block;width:20px;height:14px;border-radius:2px;overflow:hidden;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.15)}
+
+/* ---------- logo ---------- */
+.logo{display:inline-flex;align-items:center;font:800 22px/1 Sora;letter-spacing:.01em;color:#fff}
+.logo svg{width:.86em;height:.86em;margin:0 .02em}
+
+/* ---------- nav ---------- */
+.nav{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,backdrop-filter .3s,border-color .3s;border-bottom:1px solid transparent}
+.nav.scrolled{background:rgba(6,8,14,.72);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:74px}
+.nav-links{display:flex;gap:30px;font:500 14px/1 Inter;color:var(--muted)}
+.nav-links a:hover{color:#fff}
+.nav-cta{padding:11px 18px;font-size:14px}
+.burger{display:none;width:42px;height:42px;border-radius:12px;background:var(--panel2);border:1px solid var(--line);color:#fff;cursor:pointer;align-items:center;justify-content:center}
+.mobile-menu{display:none}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:flex;align-items:center;overflow:hidden;
+  background:radial-gradient(1200px 700px at 75% 45%,rgba(37,72,140,.28),transparent 60%),radial-gradient(800px 500px at 10% 90%,rgba(239,59,45,.12),transparent 60%),var(--bg)}
+#globe{position:absolute;inset:0;width:100%;height:100%}
+.globe-labels{position:absolute;inset:0;pointer-events:none}
+.glabel{position:absolute;left:0;top:0;font:600 11px/1 Inter;letter-spacing:.04em;color:#fff;padding:6px 9px;border-radius:999px;background:rgba(10,14,24,.72);border:1px solid var(--line);white-space:nowrap;display:flex;align-items:center;gap:6px;transition:opacity .3s;backdrop-filter:blur(4px)}
+.glabel .flag{width:14px;height:10px}
+.hero-content{position:relative;z-index:2;max-width:620px;padding-top:80px}
+.chip{display:inline-flex;align-items:center;gap:10px;padding:8px 14px 8px 10px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);font:500 13px/1 Inter;color:#dfe5ee}
+.chip .arrow{color:var(--red2)}
+.hero h1{font-size:clamp(42px,6.4vw,82px);margin:24px 0 22px;font-weight:800}
+.hero p.lead{font-size:clamp(17px,1.6vw,20px);color:#b8c1ce;max-width:540px}
+.hero-btns{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.hero-stats{display:grid;grid-template-columns:repeat(4,auto);gap:34px;margin-top:56px}
+.stat b{display:block;font:700 28px/1 Sora;color:#fff}
+.stat > span{display:block;font-size:13px;color:var(--muted);margin-top:8px;line-height:1.35}
+.scroll-cue{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);z-index:2;font:500 11px/1 Inter;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);display:flex;flex-direction:column;align-items:center;gap:10px}
+.scroll-cue i{width:1px;height:38px;background:linear-gradient(var(--red2),transparent);animation:cue 2s infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ---------- marquee ---------- */
+.marquee{border-block:1px solid var(--line);background:var(--bg2);overflow:hidden;padding:20px 0}
+.marquee-track{display:flex;gap:44px;width:max-content;animation:mq 40s linear infinite;font:600 15px/1 Sora;color:#c4ccd8;white-space:nowrap}
+.marquee-track span{display:inline-flex;align-items:center;gap:12px}
+.marquee-track em{font-style:normal;color:var(--red2)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* ---------- services ---------- */
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:30px;transition:border-color .3s,background .3s,transform .4s;transform-style:preserve-3d;overflow:hidden}
+.card:hover{border-color:rgba(255,106,61,.4);background:rgba(255,255,255,.05)}
+.card::after{content:"";position:absolute;inset:0;background:radial-gradient(400px 200px at var(--mx,50%) var(--my,0%),rgba(255,106,61,.12),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover::after{opacity:1}
+.icon{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(239,59,45,.22),rgba(255,153,51,.12));border:1px solid rgba(255,106,61,.3);margin-bottom:22px;color:var(--red2)}
+.icon svg{width:26px;height:26px}
+.card h3{font-size:20px;margin-bottom:10px}
+.card p{color:var(--muted);font-size:15px}
+.card .num{position:absolute;top:24px;right:26px;font:700 13px/1 Sora;color:var(--dim)}
+
+/* ---------- journey (3D ship) ---------- */
+.journey{position:relative;height:650vh;background:#0a0d18}
+.journey-sticky{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+#sea{position:absolute;inset:0;width:100%;height:100%}
+.j-shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(6,8,14,.82) 0%,rgba(6,8,14,.35) 34%,transparent 55%),linear-gradient(0deg,rgba(6,8,14,.55),transparent 30%)}
+.j-ui{position:absolute;inset:0;display:flex;flex-direction:column;padding:92px 0 22px;pointer-events:none}
+@media (max-height:820px) and (min-width:821px){.j-steps{margin-top:18px;gap:2px}.j-step{padding:9px 14px}.j-step h4{margin-top:7px}.j-head h2{font-size:34px}}
+.j-ui .wrap{width:100%}
+.j-head h2{font-size:clamp(28px,3.6vw,46px);margin:12px 0 0;max-width:460px}
+.j-steps{list-style:none;margin-top:30px;max-width:420px;display:flex;flex-direction:column;gap:6px}
+.j-step{display:grid;grid-template-columns:40px 1fr;gap:14px;padding:14px 16px;border-radius:14px;border:1px solid transparent;transition:all .45s cubic-bezier(.2,.8,.2,1);opacity:.42}
+.j-step .n{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font:700 13px/1 Sora;border:1px solid var(--line);background:rgba(255,255,255,.04);transition:all .45s}
+.j-step h4{font-size:16px;margin-top:8px}
+.j-step p{font-size:14px;color:var(--muted);max-height:0;overflow:hidden;transition:max-height .5s,margin .5s;margin-top:0}
+.j-step.on{opacity:1;background:rgba(10,14,24,.7);border-color:rgba(255,106,61,.35);backdrop-filter:blur(8px)}
+.j-step.on .n{background:var(--grad);border-color:transparent;color:#fff}
+.j-step.on p{max-height:120px;margin-top:6px}
+.j-step.done{opacity:.7}
+.j-step.done .n{color:var(--red2);border-color:rgba(255,106,61,.4)}
+.j-route{margin-top:auto;display:flex;align-items:center;gap:16px;background:rgba(10,14,24,.72);border:1px solid var(--line);border-radius:16px;padding:16px 20px;backdrop-filter:blur(10px);max-width:640px}
+.j-port{display:flex;align-items:center;gap:8px;font:600 13px/1.2 Inter;white-space:nowrap}
+.j-port small{display:block;color:var(--dim);font-weight:500;font-size:11px}
+.j-track{flex:1;height:4px;border-radius:4px;background:repeating-linear-gradient(90deg,rgba(255,255,255,.18) 0 6px,transparent 6px 12px);position:relative}
+.j-fill{position:absolute;inset:0 auto 0 0;width:0;border-radius:4px;background:var(--grad)}
+.j-boat{position:absolute;top:50%;left:0;transform:translate(-50%,-50%);width:30px;height:30px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 0 0 4px rgba(255,106,61,.3),0 0 22px rgba(255,106,61,.7);color:var(--red)}
+.j-boat svg{width:17px;height:17px}
+.j-day{font:700 13px/1 Sora;color:var(--gold);white-space:nowrap;min-width:64px;text-align:right}
+.j-badge{position:absolute;right:24px;top:96px;display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:rgba(10,14,24,.72);border:1px solid var(--line);font:600 12px/1 Inter;color:#dfe5ee;backdrop-filter:blur(8px)}
+.j-badge i{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green);animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.3}}
+
+/* ---------- products ---------- */
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.prod{min-height:300px;display:flex;flex-direction:column}
+.prod .hub{display:inline-flex;align-items:center;gap:8px;font:600 12px/1 Inter;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px}
+.prod h3{font-size:22px}
+.prod ul{list-style:none;margin:14px 0 22px;color:var(--muted);font-size:14.5px;display:flex;flex-direction:column;gap:7px}
+.prod li{display:flex;gap:10px}
+.prod li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--red2);margin-top:9px;flex:none}
+.prod .tag{margin-top:auto;display:inline-flex;align-self:flex-start;padding:8px 12px;border-radius:10px;background:rgba(255,207,92,.08);border:1px solid rgba(255,207,92,.25);color:var(--gold);font:600 13px/1.2 Inter}
+.prod .art{position:absolute;right:-30px;top:-30px;width:150px;height:150px;opacity:.10;color:#fff;transition:transform .6s,opacity .4s}
+.prod:hover .art{transform:rotate(-8deg) scale(1.08);opacity:.18}
+
+/* ---------- shanghai ---------- */
+.shanghai{background:radial-gradient(900px 500px at 80% 50%,rgba(239,59,45,.13),transparent 60%),var(--bg2);border-block:1px solid var(--line)}
+.sh-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}
+.checks{list-style:none;display:grid;gap:16px;margin-top:30px}
+.checks li{display:flex;gap:14px;align-items:flex-start;color:#c6cdd8}
+.checks li b{color:#fff;font-weight:600}
+.tick{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:rgba(31,163,74,.15);color:#4ade80;flex:none;margin-top:1px}
+.tick svg{width:14px;height:14px}
+.license-stage{perspective:1400px;display:grid;place-items:center}
+.license{width:min(440px,100%);aspect-ratio:1/1.32;background:linear-gradient(160deg,#fbf6ea,#efe6d1);color:#4a3b22;border-radius:6px;padding:30px 30px 26px;position:relative;box-shadow:0 40px 80px -20px rgba(0,0,0,.7),0 0 0 10px #8b1d16,0 0 0 12px #d4a94a;transform:rotateY(-14deg) rotateX(6deg);transition:transform .2s ease-out;font-family:Georgia,serif}
+.license .lt{text-align:center;font:700 26px/1.1 "Songti SC","STSong",serif;color:#8b1d16;letter-spacing:.3em}
+.license .ls{text-align:center;font:600 11px/1 Inter;letter-spacing:.28em;color:#8b6a2e;margin-top:8px}
+.license .emblem{width:62px;height:62px;margin:18px auto;border-radius:50%;background:radial-gradient(circle,#e6b84a 0 40%,#b8862a 41% 46%,transparent 47%),radial-gradient(circle,#c9302c 0 70%,transparent 71%)}
+.license dl{display:grid;grid-template-columns:auto 1fr;gap:9px 14px;font-size:12.5px;margin-top:8px}
+.license dt{color:#8b6a2e;font-family:Inter;font-weight:600;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;padding-top:2px}
+.license dd{border-bottom:1px dashed rgba(74,59,34,.3);padding-bottom:6px}
+.license .stamp{position:absolute;right:26px;bottom:30px;width:118px;height:118px;border-radius:50%;border:4px solid rgba(200,30,30,.82);color:rgba(200,30,30,.85);display:grid;place-items:center;text-align:center;font:700 10px/1.25 Inter;letter-spacing:.06em;transform:rotate(-14deg);mix-blend-mode:multiply}
+.license .stamp::before{content:"★";position:absolute;font-size:30px;top:30px}
+.license .stamp span{margin-top:38px}
+.license .qr{position:absolute;left:30px;bottom:30px;width:62px;height:62px;background:conic-gradient(from 90deg,#4a3b22 25%,transparent 0 50%,#4a3b22 0 75%,transparent 0) 0 0/12px 12px;opacity:.75;border:4px solid #4a3b22}
+
+/* ---------- trips ---------- */
+.trips-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.trip-hero{grid-row:span 2;min-height:440px;display:flex;flex-direction:column;justify-content:flex-end;background:
+  linear-gradient(180deg,rgba(6,8,14,.1),rgba(6,8,14,.9)),
+  radial-gradient(500px 300px at 70% 20%,rgba(255,153,51,.35),transparent 60%),
+  radial-gradient(400px 300px at 20% 40%,rgba(239,59,45,.35),transparent 60%),#141a2a}
+.trip-hero .skyline{position:absolute;inset:auto 0 38% 0;height:150px;opacity:.55}
+.trip-hero h3{font-size:32px;margin:12px 0}
+.trip-hero p{color:#c6cdd8;max-width:440px}
+.pill-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.pill{padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid var(--line);font:500 13px/1 Inter}
+.inc{display:grid;grid-template-columns:1fr 1fr;gap:16px 20px;margin-top:6px}
+.inc div{display:flex;gap:12px;align-items:flex-start;font-size:14.5px;color:#c6cdd8}
+.inc svg{width:20px;height:20px;color:var(--red2);flex:none;margin-top:2px}
+.dates{display:flex;gap:14px;margin-top:4px}
+.date{flex:1;padding:18px;border-radius:14px;background:rgba(255,255,255,.04);border:1px solid var(--line)}
+.date b{display:block;font:700 22px/1 Sora}
+.date span{font-size:13px;color:var(--muted)}
+
+/* ---------- work ---------- */
+.work-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.work{padding:0;overflow:hidden}
+.work .ph{height:190px;position:relative;overflow:hidden;display:grid;place-items:center}
+.work .ph svg{width:96px;height:96px;color:rgba(255,255,255,.85);filter:drop-shadow(0 10px 20px rgba(0,0,0,.4));transition:transform .5s}
+.work:hover .ph svg{transform:scale(1.1) rotate(-3deg)}
+.work .ph .route-chip{position:absolute;left:14px;bottom:14px;display:flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;background:rgba(6,8,14,.65);font:600 11px/1 Inter;backdrop-filter:blur(6px)}
+.work .bd{padding:22px}
+.work h3{font-size:18px;margin-bottom:6px}
+.work p{font-size:14px;color:var(--muted)}
+.work .meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.work .meta span{font:600 11.5px/1 Inter;padding:6px 9px;border-radius:8px;background:rgba(255,255,255,.06);color:#cfd6e0}
+.ph1{background:linear-gradient(135deg,#7a2a1c,#d1572f 60%,#f2a65a)}
+.ph2{background:linear-gradient(135deg,#0f3d3a,#1f8a70 60%,#9fd8a8)}
+.ph3{background:linear-gradient(135deg,#2a1b4d,#6b3fa0 60%,#d29de0)}
+.ph4{background:linear-gradient(135deg,#13294b,#2f6fb3 60%,#8cc5ff)}
+
+/* ---------- stories ---------- */
+.quote{display:flex;flex-direction:column}
+.quote .q{font:600 19px/1.45 Sora;color:#fff;letter-spacing:-.01em}
+.quote .q::before{content:"“";display:block;font:800 64px/0.6 Sora;margin-bottom:16px;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;height:30px}
+.quote .who{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:24px}
+.avatar{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font:700 15px/1 Sora;background:var(--grad)}
+.who b{display:block;font-size:15px}
+.who span{font-size:13px;color:var(--muted)}
+
+/* ---------- faq ---------- */
+.faq{max-width:860px}
+.faq details{border-bottom:1px solid var(--line);padding:22px 0}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;font:600 18px/1.4 Sora}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary i{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);flex:none;position:relative;transition:transform .3s,background .3s}
+.faq summary i::before,.faq summary i::after{content:"";position:absolute;left:50%;top:50%;width:11px;height:2px;background:#fff;transform:translate(-50%,-50%)}
+.faq summary i::after{transform:translate(-50%,-50%) rotate(90deg);transition:transform .3s}
+.faq details[open] summary i{background:var(--red);border-color:var(--red)}
+.faq details[open] summary i::after{transform:translate(-50%,-50%) rotate(0)}
+.faq details p{color:var(--muted);margin-top:12px;max-width:720px}
+
+/* ---------- contact ---------- */
+.contact{background:radial-gradient(900px 500px at 15% 30%,rgba(239,59,45,.16),transparent 60%),var(--bg2);border-top:1px solid var(--line)}
+.ct-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.ct-lines{display:grid;gap:14px;margin-top:30px}
+.ct-line{display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:14px;background:var(--panel);border:1px solid var(--line);transition:border-color .3s}
+.ct-line:hover{border-color:rgba(255,106,61,.4)}
+.ct-line svg{width:22px;height:22px;color:var(--red2)}
+.ct-line small{display:block;color:var(--muted);font-size:12px}
+.ct-line b{font-weight:600}
+form.quote-form{background:var(--panel);border:1px solid var(--line);border-radius:22px;padding:32px;display:grid;gap:16px}
+.field{display:grid;gap:7px}
+.field label{font:600 13px/1 Inter;color:#c6cdd8}
+.field input,.field select,.field textarea{width:100%;padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:rgba(6,8,14,.6);color:#fff;font:400 15px/1.4 Inter;outline:none;transition:border-color .2s,box-shadow .2s}
+.field textarea{resize:vertical;min-height:96px}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--red2);box-shadow:0 0 0 3px rgba(255,106,61,.18)}
+.field select option{background:#0b0f19}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-note{font-size:12.5px;color:var(--dim)}
+
+/* ---------- footer ---------- */
+footer{padding:60px 0 40px;border-top:1px solid var(--line)}
+.ft{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}
+.ft p{color:var(--muted);font-size:14px;max-width:340px;margin-top:14px}
+.ft-links{display:flex;gap:28px;font-size:14px;color:var(--muted);flex-wrap:wrap}
+.ft-links a:hover{color:#fff}
+.ft-bottom{margin-top:40px;padding-top:24px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px;color:var(--dim)}
+.concept{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;border:1px dashed rgba(255,207,92,.4);color:var(--gold)}
+
+/* ---------- whatsapp float ---------- */
+.wa{position:fixed;right:22px;bottom:22px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(37,211,102,.7);transition:transform .25s}
+.wa:hover{transform:scale(1.08)}
+.wa svg{width:30px;height:30px;color:#fff}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}.rv.d4{transition-delay:.32s}.rv.d5{transition-delay:.4s}
+
+/* ---------- responsive ---------- */
+@media (max-width:1024px){
+  .grid-3,.products{grid-template-columns:1fr 1fr}
+  .work-grid{grid-template-columns:1fr 1fr}
+  .sh-grid{grid-template-columns:1fr;gap:50px}
+  .hero-stats{grid-template-columns:repeat(2,auto);gap:24px 40px}
+}
+@media (max-width:820px){
+  .nav-links,.nav-cta{display:none}
+  .burger{display:flex}
+  .mobile-menu.open{display:flex;flex-direction:column;gap:4px;position:fixed;top:74px;left:12px;right:12px;z-index:49;background:rgba(11,15,25,.97);border:1px solid var(--line);border-radius:18px;padding:12px;backdrop-filter:blur(14px)}
+  .mobile-menu a{padding:14px 16px;border-radius:12px;font-weight:500}
+  .mobile-menu a:hover{background:var(--panel2)}
+  .hero{align-items:flex-end;padding-bottom:70px}
+  .hero::after{content:"";position:absolute;inset:auto 0 0 0;height:62%;background:linear-gradient(transparent,rgba(6,8,14,.85) 30%,var(--bg));pointer-events:none;z-index:1}
+  .hero-content{padding-top:46vh}
+  .glabel{font-size:9.5px;padding:4px 7px}
+  .hero h1{margin-top:18px}
+  .section{padding:84px 0}
+  .trips-grid,.ct-grid{grid-template-columns:1fr}
+  .trip-hero{grid-row:auto}
+  .j-shade{background:linear-gradient(180deg,rgba(6,8,14,.75) 0%,transparent 30%,transparent 50%,rgba(6,8,14,.9) 100%)}
+  .j-ui{padding:86px 0 20px}
+  .j-head h2{font-size:26px}
+  .j-steps{margin-top:auto;max-width:none;margin-bottom:12px}
+  .j-step{display:none}
+  .j-step.on{display:grid}
+  .j-route{max-width:none;margin-top:0;padding:12px 14px;gap:10px}
+  .j-port small{display:none}
+  .j-badge{display:none}
+}
+@media (max-width:620px){
+  .wrap{padding:0 16px}
+  .grid-3,.products,.work-grid{grid-template-columns:1fr}
+  .row2,.inc{grid-template-columns:1fr}
+  .hero-stats{grid-template-columns:1fr 1fr}
+  .stat b{font-size:24px}
+  form.quote-form{padding:22px}
+  .j-port span.pname{display:none}
+  .license{transform:none}
+  .dates{flex-direction:column}
+}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  .marquee-track{animation:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- ======= reusable SVG symbols ======= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="flag-cn" viewBox="0 0 30 20"><rect width="30" height="20" fill="#de2910"/><path fill="#ffde00" d="M5 3l1.18 3.6h3.8l-3.07 2.23 1.17 3.6L5 10.2l-3.08 2.23 1.18-3.6L.02 6.6h3.8z"/><circle cx="10.5" cy="2.5" r=".9" fill="#ffde00"/><circle cx="12.5" cy="4.6" r=".9" fill="#ffde00"/><circle cx="12.5" cy="7.6" r=".9" fill="#ffde00"/><circle cx="10.5" cy="9.6" r=".9" fill="#ffde00"/></symbol>
+    <symbol id="flag-in" viewBox="0 0 30 20"><rect width="30" height="20" fill="#fff"/><rect width="30" height="6.67" fill="#ff9933"/><rect y="13.33" width="30" height="6.67" fill="#138808"/><circle cx="15" cy="10" r="2.6" fill="none" stroke="#000080" stroke-width=".7"/><circle cx="15" cy="10" r=".6" fill="#000080"/></symbol>
+    <symbol id="logo-o" viewBox="0 0 24 24"><path d="M8.2 3.1A9.5 9.5 0 1 0 15.8 3.1" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="butt"/><path d="M12 1.5v10.2M7.6 8l4.4 4.6L16.4 8" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="miter"/></symbol>
+    <symbol id="i-ship" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 17l1.6 3.2c.2.4.6.8 1.1.8h12.6c.5 0 .9-.3 1.1-.8L21 17H3zM5 17V12h14v5M8 12V8h8v4M11 8V4h3v4M2 22c1.5-.8 3-.8 4.5 0s3 .8 4.5 0 3-.8 4.5 0 3 .8 4.5 0"/></symbol>
+  </defs>
+</svg>
+
+<!-- ======= NAV ======= -->
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#home" class="logo" aria-label="ImportNow home">IMP<svg><use href="#logo-o"/></svg>RTNOW</a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#journey">How it works</a>
+      <a href="#products">What we import</a>
+      <a href="#trips">China trips</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="#contact">Get a free quote</a>
+    <button class="burger" id="burger" aria-label="Open menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mmenu">
+  <a href="#services">Services</a><a href="#journey">How it works</a><a href="#products">What we import</a><a href="#trips">China trips</a><a href="#stories">Client stories</a><a href="#contact">Contact</a>
+</div>
+
+<!-- ======= HERO (3D globe) ======= -->
+<section class="hero" id="home">
+  <canvas id="globe" aria-hidden="true"></canvas>
+  <div class="globe-labels" id="glabels" aria-hidden="true"></div>
+  <div class="wrap" style="width:100%">
+    <div class="hero-content">
+      <span class="chip rv"><svg class="flag"><use href="#flag-cn"/></svg><span class="arrow">→</span><svg class="flag"><use href="#flag-in"/></svg> Trusted by 500+ Indian businesses</span>
+      <h1 class="rv d1">Import directly from China. <span class="grad-text">Without the guesswork.</span></h1>
+      <p class="lead rv d2">Sourcing, factory inspection, shipping and customs, handled end to end by a team with its own company in Shanghai. You choose the product. We bring it to your door.</p>
+      <div class="hero-btns rv d3">
+        <a class="btn btn-primary" href="#contact">Get a free sourcing quote <span aria-hidden="true">→</span></a>
+        <a class="btn btn-ghost" href="#journey">See how it works</a>
+      </div>
+      <div class="hero-stats rv d4">
+        <div class="stat"><b><span data-count="500">0</span>+</b><span>Businesses<br>served</span></div>
+        <div class="stat"><b><span data-count="83">0</span>K+</b><span>Community on<br>Instagram</span></div>
+        <div class="stat"><b>1 pc</b><span>MOQ on many<br>products</span></div>
+        <div class="stat"><b>Shanghai</b><span>Own registered<br>company</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue">Scroll<i></i></div>
+</section>
+
+<!-- ======= MARQUEE ======= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="mq">
+    <span>Yiwu <em>→</em> Adilabad</span><span>Foshan <em>→</em> Hyderabad</span><span>Shenzhen <em>→</em> Siddipet</span><span>Guangzhou <em>→</em> Chennai</span><span>Shanghai <em>→</em> Nhava Sheva</span><span>Guzhen <em>→</em> Vizag</span><span>Ningbo <em>→</em> Mumbai</span>
+  </div>
+</div>
+
+<!-- ======= SERVICES ======= -->
+<section class="section" id="services">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow rv">End-to-end imports</span>
+      <h2 class="rv d1">One team from the <span class="grad-text">factory floor</span> to your front door.</h2>
+      <p class="rv d2">Anyone can say they import from China. What you actually need is a smooth process, clear communication and a shipment that arrives safely.</p>
+    </div>
+    <div class="grid-3">
+      <article class="card tilt rv"><span class="num">01</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M8 11h6M11 8v6"/></svg></div><h3>Product sourcing</h3><p>We find verified manufacturers across Yiwu, Guangzhou, Shenzhen and Foshan, and negotiate prices on your behalf.</p></article>
+      <article class="card tilt rv d1"><span class="num">02</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 21V9l6 4V9l6 4V5l6 4v12H3z"/><path d="M7 17h2M12 17h2M17 17h1"/></svg></div><h3>Factory inspection</h3><p>Our team visits the factory in person. We check licences, samples and production capacity before you pay.</p></article>
+      <article class="card tilt rv d2"><span class="num">03</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div><h3>Quality control</h3><p>Pre-shipment checks with photo and video reports, done before the container is sealed.</p></article>
+      <article class="card tilt rv"><span class="num">04</span><div class="icon"><svg><use href="#i-ship"/></svg></div><h3>Shipping &amp; logistics</h3><p>Full-container and shared-container sea freight from Chinese ports, plus air cargo for urgent orders.</p></article>
+      <article class="card tilt rv d1"><span class="num">05</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg></div><h3>Customs clearance</h3><p>Documentation, duties, GST and clearance at Indian ports. No surprises when the ship lands.</p></article>
+      <article class="card tilt rv d2"><span class="num">06</span><div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M1 6h13v10H1zM14 10h4l4 3v3h-8z"/><circle cx="5.5" cy="18" r="2"/><circle cx="17.5" cy="18" r="2"/></svg></div><h3>Doorstep delivery</h3><p>From the port straight to your shop, warehouse, villa or site, with the container unloaded on location.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ======= JOURNEY (3D ship, scroll driven) ======= -->
+<section class="journey" id="journey">
+  <div class="journey-sticky">
+    <canvas id="sea" aria-hidden="true"></canvas>
+    <div class="j-shade"></div>
+    <div class="j-badge"><i></i> Live shipment view</div>
+    <div class="j-ui">
+      <div class="wrap" style="display:flex;flex-direction:column;height:100%">
+        <div class="j-head">
+          <span class="eyebrow">How it works</span>
+          <h2>Watch your order travel from China to India.</h2>
+        </div>
+        <ol class="j-steps" id="jsteps">
+          <li class="j-step on"><span class="n">1</span><div><h4>Source the right factory</h4><p>Tell us the product. We shortlist verified manufacturers and get you real prices, not middleman quotes.</p></div></li>
+          <li class="j-step"><span class="n">2</span><div><h4>Inspect &amp; approve samples</h4><p>Our team visits the factory and checks samples. You approve over video call.</p></div></li>
+          <li class="j-step"><span class="n">3</span><div><h4>Quality check &amp; loading</h4><p>Every carton is checked and counted before the container is loaded and sealed.</p></div></li>
+          <li class="j-step"><span class="n">4</span><div><h4>Ocean freight</h4><p>Your container sails from the Chinese port to India, and we track it the whole way.</p></div></li>
+          <li class="j-step"><span class="n">5</span><div><h4>Customs clearance</h4><p>Duties, GST and paperwork are handled at the Indian port, so the container is released quickly.</p></div></li>
+          <li class="j-step"><span class="n">6</span><div><h4>Delivered to your door</h4><p>The container reaches your shop, warehouse or site and is unloaded on location.</p></div></li>
+        </ol>
+        <div class="j-route">
+          <div class="j-port"><svg class="flag"><use href="#flag-cn"/></svg><div><span class="pname">Shanghai</span><small>Origin port</small></div></div>
+          <div class="j-track"><div class="j-fill" id="jfill"></div><div class="j-boat" id="jboat"><svg><use href="#i-ship"/></svg></div></div>
+          <div class="j-port"><div style="text-align:right"><span class="pname">Chennai</span><small>Destination</small></div><svg class="flag"><use href="#flag-in"/></svg></div>
+          <div class="j-day" id="jday">Day 0</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= PRODUCTS ======= -->
+<section class="section" id="products">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow rv">What we import</span>
+      <h2 class="rv d1">China has a market for every industry. <span class="grad-text">We know each one.</span></h2>
+      <p class="rv d2">Each industry has its own manufacturing hub. We take you straight to the source.</p>
+    </div>
+    <div class="products">
+      <article class="card prod tilt rv"><svg class="art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 11h18v6H3zM5 17v3M19 17v3M5 11V7a2 2 0 012-2h10a2 2 0 012 2v4"/></svg>
+        <span class="hub"><svg class="flag"><use href="#flag-cn"/></svg> Foshan hub</span><h3>Furniture &amp; interiors</h3>
+        <ul><li>Complete home and villa furniture</li><li>Office desks and executive chairs</li><li>Banquet hall and hotel fit-outs</li></ul>
+        <span class="tag">Height-adjustable desk from ₹45,000 · MOQ 1</span></article>
+      <article class="card prod tilt rv d1"><svg class="art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg>
+        <span class="hub"><svg class="flag"><use href="#flag-cn"/></svg> Shenzhen hub</span><h3>Electronics &amp; tech</h3>
+        <ul><li>LED screens and digital signage</li><li>Mobile accessories in bulk</li><li>Power bank rental kiosks</li></ul>
+        <span class="tag">Business ideas India doesn't have yet</span></article>
+      <article class="card prod tilt rv d2"><svg class="art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="5.5" cy="17" r="3.5"/><circle cx="18.5" cy="17" r="3.5"/><path d="M5.5 17l4-8h5l4 8M9 6h3"/></svg>
+        <span class="hub"><svg class="flag"><use href="#flag-cn"/></svg> Guangzhou hub</span><h3>EV &amp; automotive</h3>
+        <ul><li>Electric scooters as kits for assembly in India</li><li>Battery cells sourced separately</li><li>Car LED lights with your own brand</li></ul>
+        <span class="tag">Car LED private label · MOQ 500</span></article>
+      <article class="card prod tilt rv"><svg class="art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M9 18h6M10 21h4M12 3a6 6 0 00-3.5 10.9V16h7v-2.1A6 6 0 0012 3z"/></svg>
+        <span class="hub"><svg class="flag"><use href="#flag-cn"/></svg> Guzhen hub</span><h3>Lighting</h3>
+        <ul><li>Decorative and architectural lighting</li><li>Commercial LED fixtures</li><li>Custom designs for projects</li></ul>
+        <span class="tag">Direct from the lighting capital of China</span></article>
+      <article class="card prod tilt rv d1"><svg class="art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 4h2l2.5 11h11L21 7H7M9 20a1 1 0 100-2 1 1 0 000 2zM18 20a1 1 0 100-2 1 1 0 000 2z"/></svg>
+        <span class="hub"><svg class="flag"><use href="#flag-cn"/></svg> Yiwu hub</span><h3>Supermarket &amp; general goods</h3>
+        <ul><li>Complete store stock in one container</li><li>Home, kitchen, toys and gifts</li><li>Choose products over video call</li></ul>
+        <span class="tag">World's largest small-goods market</span></article>
+      <article class="card prod tilt rv d2"><svg class="art" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+        <span class="hub"><svg class="flag"><use href="#flag-cn"/></svg> Pan-China</span><h3>Machinery &amp; automation</h3>
+        <ul><li>Production and packaging machines</li><li>Smart vending and robotic kiosks</li><li>Spares and after-sales support</li></ul>
+        <span class="tag">Tell us the machine, we find the factory</span></article>
+    </div>
+  </div>
+</section>
+
+<!-- ======= SHANGHAI COMPANY ======= -->
+<section class="section shanghai" id="shanghai">
+  <div class="wrap sh-grid">
+    <div>
+      <span class="eyebrow rv">Officially in China</span>
+      <h2 class="rv d1" style="font-size:clamp(32px,4.2vw,52px);margin:14px 0 18px">Many claim an office in China. <span class="grad-text">We have the licence.</span></h2>
+      <p class="rv d2" style="color:var(--muted);font-size:18px">ImportNow operates through its own registered company in Shanghai, <b style="color:#fff">Shanghai Shengqiao Chain Trading Co., Ltd.</b> That means we can sign contracts with factories, pay suppliers locally and stand behind every order.</p>
+      <ul class="checks">
+        <li class="rv d2"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><div><b>Registered business licence</b> issued in Shanghai, China</div></li>
+        <li class="rv d3"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><div><b>Chinese company bank account</b>, so payments to factories are safe and traceable</div></li>
+        <li class="rv d4"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><div><b>Team on the ground</b> for factory visits, quality checks and market trips</div></li>
+        <li class="rv d5"><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><div><b>Indian founder on both sides</b>: talk to us in Telugu, Hindi or English</div></li>
+      </ul>
+    </div>
+    <div class="license-stage rv d2">
+      <div class="license" id="license">
+        <div class="lt">营业执照</div>
+        <div class="ls">BUSINESS LICENCE</div>
+        <div class="emblem"></div>
+        <dl>
+          <dt>Company</dt><dd>Shanghai Shengqiao Chain Trading Co., Ltd.</dd>
+          <dt>Location</dt><dd>Shanghai, People's Republic of China</dd>
+          <dt>Scope</dt><dd>Supply chain, sourcing &amp; international trade</dd>
+          <dt>Serving</dt><dd>Importers across India</dd>
+        </dl>
+        <div class="qr"></div>
+        <div class="stamp"><span>SHANGHAI<br>SHENGQIAO<br>TRADING</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======= CANTON FAIR TRIPS ======= -->
+<section class="section" id="trips">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow rv">Business trips to China</span>
+      <h2 class="rv d1">Your business trip doesn't have to <span class="grad-text">feel like work.</span></h2>
+      <p class="rv d2">Guided trips to the Canton Fair, wholesale markets and factories you choose. Our clients often tell us it felt like a personal trip, not a business tour.</p>
+    </div>
+    <div class="trips-grid">
+      <article class="card trip-hero rv">
+        <svg class="skyline" viewBox="0 0 600 150" preserveAspectRatio="none" fill="rgba(255,255,255,.18)"><path d="M0 150V110h30V80h20v30h25V60h15V40h10v20h15v50h30V70h40v40h20V30l15-25 15 25v80h25V85h30v25h20V50h35v60h25V90h30V20h12V0h6v20h12v90h30V75h40v35h25V95h30v55z"/></svg>
+        <span class="eyebrow">Canton Fair · Guangzhou</span>
+        <h3>Meet factories face to face. We handle everything else.</h3>
+        <p>Walk the world's biggest trade fair with a guide who speaks the language, then visit the factories you shortlist.</p>
+        <div class="pill-row"><span class="pill">Guangzhou</span><span class="pill">Shenzhen</span><span class="pill">Yiwu</span><span class="pill">Foshan</span><span class="pill">Macau</span><span class="pill">Glass bridge</span></div>
+      </article>
+      <article class="card rv d1">
+        <h3 style="margin-bottom:18px">What's included</h3>
+        <div class="inc">
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Visa guidance &amp; invitation letter</div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21V8l9-5 9 5v13M9 21v-6h6v6"/></svg>Hotels close to the fair</div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 11h16a8 8 0 01-16 0zM12 3v4M8 5v2M16 5v2"/></svg>Indian food daily, veg &amp; non-veg</div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h9M8.5 3v2M6 5c0 4 3 7 6 8M11 5c-1 4-4 7-7 8M14 21l4-9 4 9M15.5 18h5"/></svg>Guides &amp; translators</div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21V9l6 4V9l6 4V5l6 4v12H3z"/></svg>Factory visits you choose</div>
+          <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Sightseeing between markets</div>
+        </div>
+      </article>
+      <article class="card rv d2">
+        <h3 style="margin-bottom:16px">Next departures</h3>
+        <div class="dates">
+          <div class="date"><b>Spring</b><span>Canton Fair · April–May</span></div>
+          <div class="date"><b>Autumn</b><span>Canton Fair · October–November</span></div>
+        </div>
+        <a class="btn btn-primary" href="#contact" style="margin-top:20px">Join the next trip →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======= PROOF OF WORK ======= -->
+<section class="section" id="work" style="padding-top:20px">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow rv">Recently delivered</span>
+      <h2 class="rv d1">Another container unloaded, <span class="grad-text">another happy client.</span></h2>
+    </div>
+    <div class="work-grid">
+      <article class="card work tilt rv"><div class="ph ph1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 11h18v6H3zM5 17v3M19 17v3M5 11V7a2 2 0 012-2h10a2 2 0 012 2v4"/></svg><span class="route-chip"><svg class="flag"><use href="#flag-cn"/></svg>Foshan → Villa</span></div><div class="bd"><h3>Complete villa furniture</h3><p>Sofas, dining sets, office furniture and pergolas, all in one container delivered to a luxury villa.</p><div class="meta"><span>Full container</span><span>Door delivery</span></div></div></article>
+      <article class="card work tilt rv d1"><div class="ph ph2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 4h2l2.5 11h11L21 7H7M9 20a1 1 0 100-2 1 1 0 000 2zM18 20a1 1 0 100-2 1 1 0 000 2z"/></svg><span class="route-chip"><svg class="flag"><use href="#flag-cn"/></svg>Yiwu → Adilabad</span></div><div class="bd"><h3>Sagar Supermarket</h3><p>Complete supermarket stock sourced from Yiwu over video calls and delivered to the client's warehouse.</p><div class="meta"><span>Retail</span><span>Video sourcing</span></div></div></article>
+      <article class="card work tilt rv d2"><div class="ph ph3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 21V8l9-5 9 5v13M9 21v-6h6v6M7 10h2M15 10h2"/></svg><span class="route-chip"><svg class="flag"><use href="#flag-cn"/></svg>China → Convention</span></div><div class="bd"><h3>Sreeman Convention Centre</h3><p>Cots, beds, dining sets and office furniture for a convention venue, with better finish for the same budget.</p><div class="meta"><span>Hospitality</span><span>Bulk order</span></div></div></article>
+      <article class="card work tilt rv d3"><div class="ph ph4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M3 8h18v3H3zM5 11v9M19 11v9M10 8V5h4v3"/></svg><span class="route-chip"><svg class="flag"><use href="#flag-cn"/></svg>China → Hyderabad</span></div><div class="bd"><h3>Smart office desks</h3><p>Motorised height-adjustable L-shaped desks, imported even as a single piece.</p><div class="meta"><span>MOQ 1</span><span>~30 days</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ======= TESTIMONIALS =======
+     NOTE FOR PITCH: these are paraphrased from clients' words in ImportNow's own Instagram reels.
+     Replace with exact, client-approved quotes before going live. -->
+<section class="section" id="stories" style="padding-top:20px">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow rv">Client stories</span>
+      <h2 class="rv d1">Heard from the people <span class="grad-text">who made the trip.</span></h2>
+    </div>
+    <div class="grid-3">
+      <article class="card quote rv"><p class="q">I came to source LED screens and electronics. The Guangzhou and Shenzhen markets were easy to navigate, and hotels, food and travel were all taken care of.</p><div class="who"><span class="avatar">S</span><div><b>Sai</b><span>Ad-tech startup · Siddipet</span></div></div></article>
+      <article class="card quote rv d1"><p class="q">Twelve days covering the Canton Fair and factories of my choice. Visa, guidance, Indian food every day. It felt like a personal trip, not a business tour.</p><div class="who"><span class="avatar">M</span><div><b>Mahender Reddy</b><span>Canton Fair trip client</span></div></div></article>
+      <article class="card quote rv d2"><p class="q">We picked our products on video calls, and the container came straight from Yiwu to our warehouse. The whole process was hassle-free.</p><div class="who"><span class="avatar">SS</span><div><b>Sagar Supermarket</b><span>Retail · Adilabad</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ======= FAQ ======= -->
+<section class="section" id="faq" style="padding-top:20px">
+  <div class="wrap">
+    <div class="section-head"><span class="eyebrow rv">Questions</span><h2 class="rv d1">Before you import</h2></div>
+    <div class="faq rv d2">
+      <details open><summary>Can I import just one piece?<i></i></summary><p>Yes, for many products. Furniture like height-adjustable desks can be imported with a minimum order of one piece. Private-label products, such as car LED lights, usually start from around 500 units.</p></details>
+      <details><summary>How long does delivery take?<i></i></summary><p>Most sea shipments reach your door in about 30 to 40 days, depending on the product, the factory's production time and the destination port. Air cargo is faster for urgent orders.</p></details>
+      <details><summary>Do you handle customs and GST?<i></i></summary><p>Yes. We prepare the documentation and manage duties, GST and clearance at the Indian port, then deliver to your address.</p></details>
+      <details><summary>Do I need an Import Export Code (IEC)?<i></i></summary><p>For commercial imports, yes. If you don't have one yet, we'll guide you through getting it.</p></details>
+      <details><summary>Can I visit the factories myself?<i></i></summary><p>Absolutely. Join one of our guided China business trips, or we can arrange visits to the factories you've shortlisted.</p></details>
+      <details><summary>What's the best business to start by importing from China?<i></i></summary><p>It depends on your interests and budget. Popular choices with our clients include furniture, EV scooters, car accessories, lighting and supermarket goods. Talk to us and we'll suggest options that fit your market.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ======= CONTACT ======= -->
+<section class="section contact" id="contact">
+  <div class="wrap ct-grid">
+    <div>
+      <span class="eyebrow rv">Start importing</span>
+      <h2 class="rv d1" style="font-size:clamp(32px,4.4vw,54px);margin:14px 0 18px">Tell us what you want to import. <span class="grad-text">We'll take it from there.</span></h2>
+      <p class="rv d2" style="color:var(--muted);font-size:18px">Share the product and quantity. You'll get supplier options, landed cost and timelines, free of charge.</p>
+      <div class="ct-lines">
+        <a class="ct-line rv d2" href="tel:+919989724320"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2"/></svg><div><small>Call or WhatsApp</small><b>+91 99897 24320</b></div></a>
+        <a class="ct-line rv d3" href="https://www.instagram.com/importnow.in/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><div><small>Instagram</small><b>@importnow.in</b></div></a>
+        <div class="ct-line rv d4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><div><small>Offices</small><b>Hyderabad, India · Shanghai, China</b></div></div>
+      </div>
+    </div>
+    <form class="quote-form rv d2" id="qform">
+      <h3 style="font-size:22px">Get a free sourcing quote</h3>
+      <div class="row2">
+        <div class="field"><label for="f-name">Your name</label><input id="f-name" required placeholder="Full name"></div>
+        <div class="field"><label for="f-city">City</label><input id="f-city" placeholder="e.g. Hyderabad"></div>
+      </div>
+      <div class="field"><label for="f-cat">What do you want to import?</label>
+        <select id="f-cat"><option>Furniture &amp; interiors</option><option>Electronics &amp; tech</option><option>EV &amp; automotive</option><option>Lighting</option><option>Supermarket &amp; general goods</option><option>Machinery</option><option>China business trip / Canton Fair</option><option>Something else</option></select></div>
+      <div class="row2">
+        <div class="field"><label for="f-qty">Approx. quantity</label><input id="f-qty" placeholder="e.g. 1 container"></div>
+        <div class="field"><label for="f-budget">Budget</label><select id="f-budget"><option>Under ₹1 lakh</option><option>₹1–5 lakh</option><option>₹5–25 lakh</option><option>₹25 lakh+</option></select></div>
+      </div>
+      <div class="field"><label for="f-msg">Details</label><textarea id="f-msg" placeholder="Product, specs, reference photos or links…"></textarea></div>
+      <button class="btn btn-primary" type="submit" style="justify-content:center">Send on WhatsApp →</button>
+      <p class="form-note">Opens WhatsApp with your details filled in. We usually reply within a few hours.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="ft">
+      <div><a href="#home" class="logo">IMP<svg><use href="#logo-o"/></svg>RTNOW</a><p>End-to-end imports from China to India: sourcing, factory inspection, shipping and customs. Save time. Reduce costs.</p></div>
+      <div class="ft-links"><a href="#services">Services</a><a href="#journey">How it works</a><a href="#products">What we import</a><a href="#trips">China trips</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="ft-bottom"><span>© <span id="yr"></span> ImportNow.in · All rights reserved.</span><span class="concept">Concept design · preview prepared for ImportNow</span></div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/919989724320" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 001.8-1.2 2.2 2.2 0 00.1-1.2c0-.1-.2-.2-.5-.3z"/></svg></a>
+
+<!-- ======= UI scripts (no 3D) ======= -->
+<script>
+(function(){
+  const nav=document.getElementById('nav');
+  const onScroll=()=>nav.classList.toggle('scrolled',scrollY>30);
+  addEventListener('scroll',onScroll,{passive:true});onScroll();
+  const mm=document.getElementById('mmenu');
+  document.getElementById('burger').addEventListener('click',()=>mm.classList.toggle('open'));
+  mm.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mm.classList.remove('open')));
+  document.getElementById('yr').textContent=new Date().getFullYear();
+
+  // duplicate marquee content for seamless loop
+  const mq=document.getElementById('mq'); mq.innerHTML+=mq.innerHTML;
+
+  // reveal on scroll
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+
+  // count-up
+  const cio=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;cio.unobserve(e.target);
+    const el=e.target,to=+el.dataset.count,t0=performance.now(),d=1600;
+    const step=t=>{const k=Math.min(1,(t-t0)/d);el.textContent=Math.round(to*(1-Math.pow(1-k,3)));if(k<1)requestAnimationFrame(step)};requestAnimationFrame(step);
+  }),{threshold:.6});
+  document.querySelectorAll('[data-count]').forEach(el=>cio.observe(el));
+
+  // 3D tilt cards (pointer devices only)
+  if(matchMedia('(hover:hover) and (pointer:fine)').matches){
+    document.querySelectorAll('.tilt').forEach(c=>{
+      c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+        c.style.transform=`perspective(900px) rotateX(${(.5-y)*7}deg) rotateY(${(x-.5)*9}deg) translateY(-4px)`;
+        c.style.setProperty('--mx',x*100+'%');c.style.setProperty('--my',y*100+'%')});
+      c.addEventListener('pointerleave',()=>{c.style.transform=''});
+    });
+    const lic=document.getElementById('license'),st=lic.parentElement;
+    st.addEventListener('pointermove',e=>{const r=st.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;lic.style.transform=`rotateY(${x*24}deg) rotateX(${-y*16}deg)`});
+    st.addEventListener('pointerleave',()=>{lic.style.transform=''});
+  }
+
+  // quote form -> WhatsApp
+  document.getElementById('qform').addEventListener('submit',e=>{
+    e.preventDefault();const v=id=>document.getElementById(id).value.trim();
+    const msg=`Hi ImportNow, I'd like a sourcing quote.\n\nName: ${v('f-name')}\nCity: ${v('f-city')}\nCategory: ${v('f-cat')}\nQuantity: ${v('f-qty')}\nBudget: ${v('f-budget')}\nDetails: ${v('f-msg')}`;
+    window.open('https://wa.me/919989724320?text='+encodeURIComponent(msg),'_blank','noopener');
+  });
+})();
+</script>
+
+<!-- ======= 3D scenes ======= -->
+<script type="module">
+import * as THREE from 'three';
+
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const lerp=(a,b,t)=>a+(b-a)*t;
+const smooth=t=>t*t*(3-2*t);
+const ease=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+
+function glowTexture(inner='rgba(255,255,255,1)',outer='rgba(255,120,60,0)'){
+  const c=document.createElement('canvas');c.width=c.height=128;const g=c.getContext('2d');
+  const gr=g.createRadialGradient(64,64,0,64,64,64);gr.addColorStop(0,inner);gr.addColorStop(.25,'rgba(255,140,80,.85)');gr.addColorStop(1,outer);
+  g.fillStyle=gr;g.fillRect(0,0,128,128);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;return t;
+}
+
+/* =========================================================
+   HERO — 3D globe with China → India shipping routes
+   ========================================================= */
+(function hero(){
+  const canvas=document.getElementById('globe'), labelsEl=document.getElementById('glabels'), host=canvas.parentElement;
+  const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+  renderer.outputColorSpace=THREE.SRGBColorSpace;
+  const scene=new THREE.Scene();
+  const camera=new THREE.PerspectiveCamera(35,1,.1,200);
+  camera.position.set(0,0,9);
+
+  const R=2;
+  const outer=new THREE.Group(); scene.add(outer);
+  const globe=new THREE.Group(); outer.add(globe);
+
+  const ll=(lat,lon,r=R)=>{const phi=(90-lat)*Math.PI/180,th=(lon+180)*Math.PI/180;
+    return new THREE.Vector3(-r*Math.sin(phi)*Math.cos(th),r*Math.cos(phi),r*Math.sin(phi)*Math.sin(th))};
+
+  // Earth
+  const tex=new THREE.TextureLoader().load('https://cdn.jsdelivr.net/npm/three-globe@2.31.0/example/img/earth-dark.jpg');
+  tex.colorSpace=THREE.SRGBColorSpace; tex.anisotropy=8;
+  const night=new THREE.TextureLoader().load('https://cdn.jsdelivr.net/npm/three-globe@2.31.0/example/img/earth-night.jpg');
+  night.colorSpace=THREE.SRGBColorSpace; night.anisotropy=8;
+  const earth=new THREE.Mesh(new THREE.SphereGeometry(R,96,96),new THREE.MeshPhongMaterial({map:tex,color:0xc8d6f0,emissiveMap:night,emissive:0xffd2a0,emissiveIntensity:1.6,shininess:18,specular:0x2a3d66}));
+  globe.add(earth);
+
+  // dotted lat/long grid
+  const gridMat=new THREE.LineBasicMaterial({color:0x3a5a9a,transparent:true,opacity:.14});
+  for(let lat=-60;lat<=60;lat+=30){const pts=[];for(let lon=0;lon<=360;lon+=4)pts.push(ll(lat,lon,R*1.002));globe.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),gridMat))}
+  for(let lon=0;lon<360;lon+=30){const pts=[];for(let lat=-90;lat<=90;lat+=4)pts.push(ll(lat,lon,R*1.002));globe.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),gridMat))}
+
+  // Atmosphere
+  const atmo=new THREE.Mesh(new THREE.SphereGeometry(R*1.12,64,64),new THREE.ShaderMaterial({
+    side:THREE.BackSide,transparent:true,blending:THREE.AdditiveBlending,depthWrite:false,
+    vertexShader:`varying vec3 vN;void main(){vN=normalize(normalMatrix*normal);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+    fragmentShader:`varying vec3 vN;void main(){float i=pow(max(.62-dot(vN,vec3(0.,0.,1.)),0.),3.);vec3 c=mix(vec3(.3,.55,1.),vec3(1.,.5,.3),.18);gl_FragColor=vec4(c,1.)*i*1.6;}`
+  }));
+  outer.add(atmo);
+  const rim=new THREE.Mesh(new THREE.SphereGeometry(R*1.01,64,64),new THREE.ShaderMaterial({
+    transparent:true,blending:THREE.AdditiveBlending,depthWrite:false,
+    vertexShader:`varying vec3 vN;varying vec3 vV;void main(){vec4 mv=modelViewMatrix*vec4(position,1.);vN=normalize(normalMatrix*normal);vV=normalize(-mv.xyz);gl_Position=projectionMatrix*mv;}`,
+    fragmentShader:`varying vec3 vN;varying vec3 vV;void main(){float f=pow(1.-max(dot(vN,vV),0.),3.5);gl_FragColor=vec4(vec3(.35,.6,1.)*f,f*.6);}`
+  }));
+  outer.add(rim);
+
+  // Stars
+  {const n=1400,p=new Float32Array(n*3);for(let i=0;i<n;i++){const v=new THREE.Vector3().randomDirection().multiplyScalar(30+Math.random()*40);p.set([v.x,v.y,v.z],i*3)}
+   const g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(p,3));
+   scene.add(new THREE.Points(g,new THREE.PointsMaterial({color:0xaab8d8,size:.08,transparent:true,opacity:.6,depthWrite:false})))}
+
+  // Cities
+  const cities={
+    shanghai:{n:'Shanghai',lat:31.23,lon:121.47,c:'cn',side:'r'},
+    yiwu:{n:'Yiwu',lat:29.31,lon:120.08,c:'cn',side:'l'},
+    guangzhou:{n:'Guangzhou',lat:23.13,lon:113.26,c:'cn',side:'r'},
+    shenzhen:{n:'Shenzhen',lat:22.54,lon:114.06,c:'cn'},
+    mumbai:{n:'Nhava Sheva',lat:18.95,lon:72.95,c:'in',side:'l'},
+    chennai:{n:'Chennai',lat:13.08,lon:80.27,c:'in',side:'r'},
+    hyderabad:{n:'Hyderabad',lat:17.39,lon:78.49,c:'in',side:'r'},
+    vizag:{n:'Vizag',lat:17.69,lon:83.22,c:'in'},
+  };
+  const glow=glowTexture();
+  const markers=[];
+  for(const k in cities){
+    const c=cities[k];const pos=ll(c.lat,c.lon,R*1.003);c.pos=pos;
+    const col=c.c==='cn'?0xff4a36:0xffa040;
+    const dot=new THREE.Mesh(new THREE.SphereGeometry(.022,12,12),new THREE.MeshBasicMaterial({color:col}));dot.position.copy(pos);globe.add(dot);
+    const ring=new THREE.Mesh(new THREE.RingGeometry(.03,.045,32),new THREE.MeshBasicMaterial({color:col,transparent:true,side:THREE.DoubleSide,depthWrite:false}));
+    ring.position.copy(pos);ring.lookAt(pos.clone().multiplyScalar(2));globe.add(ring);
+    markers.push({ring,phase:Math.random()*2});
+    if(c.side){const el=document.createElement('div');el.className='glabel';el.innerHTML=`<svg class="flag"><use href="#flag-${c.c}"/></svg>${c.n}`;labelsEl.appendChild(el);c.el=el}
+  }
+
+  // Routes
+  const routes=[['shanghai','chennai',0xff5a36,.0],['yiwu','mumbai',0xff7a3d,.33],['guangzhou','vizag',0xff9933,.66],['shenzhen','hyderabad',0x4cc9f0,.15],['shanghai','hyderabad',0xff5a36,.5],['guangzhou','chennai',0xffb35c,.82]];
+  const arcMat=(color,off)=>new THREE.ShaderMaterial({transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,
+    uniforms:{uT:{value:0},uC:{value:new THREE.Color(color)},uO:{value:off}},
+    vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+    fragmentShader:`uniform float uT;uniform vec3 uC;uniform float uO;varying vec2 vUv;void main(){float h=fract(uT*.16+uO);float d=h-vUv.x;float tr=(d>0.&&d<.35)?pow(1.-d/.35,2.):0.;float a=.16+tr*1.2;a*=smoothstep(0.,.04,vUv.x)*smoothstep(1.,.96,vUv.x);gl_FragColor=vec4(uC*(1.+tr),a);}`});
+  const arcs=[];
+  for(const [a,b,color,off] of routes){
+    const A=cities[a].pos,B=cities[b].pos;const d=A.distanceTo(B);
+    const mid=A.clone().add(B).normalize().multiplyScalar(R+d*.55);
+    const curve=new THREE.QuadraticBezierCurve3(A,mid,B);
+    const mat=arcMat(color,off);
+    globe.add(new THREE.Mesh(new THREE.TubeGeometry(curve,80,.007,8,false),mat));
+    const head=new THREE.Sprite(new THREE.SpriteMaterial({map:glow,color,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending}));
+    head.scale.setScalar(.16);globe.add(head);
+    arcs.push({curve,mat,head,off});
+  }
+
+  // Lighting
+  scene.add(new THREE.AmbientLight(0xffffff,.55));
+  const sun=new THREE.DirectionalLight(0xfff1e0,1.7);sun.position.set(-5,3,6);scene.add(sun);
+  const back=new THREE.DirectionalLight(0xff6a3d,.9);back.position.set(6,-2,-4);scene.add(back);
+
+  // Face the China–India region toward the camera
+  const focus=ll(23,98,1);
+  const baseY=-Math.atan2(focus.x,focus.z);
+  const baseX=Math.asin(focus.y);
+  outer.rotation.x=baseX; globe.rotation.y=baseY;
+
+  let layoutX=0,layoutY=0,scale=1;
+  function resize(){
+    const w=host.clientWidth,h=host.clientHeight;
+    renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix();
+    const asp=w/h;
+    if(w>820){layoutX=Math.min(2.5,1.05*asp+.35);layoutY=-.35;scale=asp<1.5?1.35:1.5}
+    else {layoutX=0;layoutY=1.7;scale=Math.min(.8,asp*1.12)}
+    outer.position.set(layoutX,layoutY,0);outer.scale.setScalar(scale);
+  }
+  addEventListener('resize',resize);resize();
+
+  let mx=0,my=0;
+  addEventListener('pointermove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5},{passive:true});
+
+  let visible=true;new IntersectionObserver(([e])=>visible=e.isIntersecting).observe(host);
+  const tmp=new THREE.Vector3(),camDir=new THREE.Vector3(),center=new THREE.Vector3();
+  const clock=new THREE.Clock();
+  let intro=0;
+  function frame(){
+    requestAnimationFrame(frame);
+    if(!visible)return;
+    const t=clock.getElapsedTime();
+    intro=Math.min(1,intro+.012);
+    const ei=ease(intro);
+    const sway=reduceMotion?0:Math.sin(t*.25)*.18;
+    globe.rotation.y+=((baseY+sway+mx*.35-(1-ei)*1.4)-globe.rotation.y)*.05;
+    outer.rotation.x+=((baseX+my*.15)-outer.rotation.x)*.05;
+    outer.scale.setScalar(scale*(.8+.2*ei));
+    for(const a of arcs){a.mat.uniforms.uT.value=reduceMotion?2:t;const h=((reduceMotion?2:t)*.16+a.off)%1;a.head.position.copy(a.curve.getPoint(h));a.head.material.opacity=Math.sin(h*Math.PI)}
+    for(const m of markers){const k=((t*.6+m.phase)%1);m.ring.scale.setScalar(1+k*2.2);m.ring.material.opacity=(1-k)*.9}
+    renderer.render(scene,camera);
+
+    // HTML labels
+    const w=host.clientWidth,h=host.clientHeight;
+    outer.getWorldPosition(center);
+    for(const k in cities){const c=cities[k];if(!c.el)continue;
+      c.el.parentElement||0;
+      tmp.copy(c.pos);globe.localToWorld(tmp);
+      camDir.copy(camera.position).sub(tmp).normalize();
+      const n=tmp.clone().sub(center).normalize();
+      const facing=n.dot(camDir);
+      tmp.project(camera);
+      const x=(tmp.x*.5+.5)*w,y=(-tmp.y*.5+.5)*h;
+      const tx=c.side==='l'?'calc(-100% - 10px)':'10px';
+      c.el.style.transform=`translate(${x}px,${y}px) translate(${tx},-50%)`;
+      c.el.style.opacity=facing>.15&&ei>.9?1:0;
+    }
+  }
+  frame();
+})();
+
+/* =========================================================
+   JOURNEY — scroll-driven container ship, China → India
+   ========================================================= */
+(function journey(){
+  const section=document.getElementById('journey'), canvas=document.getElementById('sea'), host=canvas.parentElement;
+  const steps=[...document.querySelectorAll('#jsteps .j-step')];
+  const fill=document.getElementById('jfill'), boat=document.getElementById('jboat'), dayEl=document.getElementById('jday');
+  const mobile=matchMedia('(max-width:820px)').matches;
+
+  const renderer=new THREE.WebGLRenderer({canvas,antialias:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));
+  renderer.outputColorSpace=THREE.SRGBColorSpace;
+  renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.25;
+  const scene=new THREE.Scene();
+  const FOG=new THREE.Color(0x3b3550), FOG_NEAR=90, FOG_FAR=420;
+  scene.fog=new THREE.Fog(FOG,FOG_NEAR,FOG_FAR);
+  const camera=new THREE.PerspectiveCamera(42,1,.5,3000);
+
+  const SUN=new THREE.Vector3(1,.09,-.55).normalize();
+
+  // ---- Sky dome
+  const sky=new THREE.Mesh(new THREE.SphereGeometry(1500,32,16),new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,fog:false,
+    uniforms:{uSun:{value:SUN}},
+    vertexShader:`varying vec3 vD;void main(){vD=position;vec4 p=projectionMatrix*modelViewMatrix*vec4(position,1.);gl_Position=p.xyww;}`,
+    fragmentShader:`uniform vec3 uSun;varying vec3 vD;void main(){vec3 d=normalize(vD);float h=d.y;
+      vec3 top=vec3(.03,.05,.13),mid=vec3(.16,.17,.33),hor=vec3(.98,.5,.32);
+      vec3 c=mix(hor,mid,smoothstep(-.02,.22,h));c=mix(c,top,smoothstep(.22,.75,h));
+      float s=max(dot(d,uSun),0.);c+=vec3(1.,.62,.35)*(pow(s,600.)*6.+pow(s,24.)*.45+pow(s,4.)*.12);
+      if(h<0.)c=mix(hor*.7,vec3(.23,.21,.31),smoothstep(0.,-.08,h));
+      gl_FragColor=vec4(c,1.);}`}));
+  sky.frustumCulled=false;scene.add(sky);
+
+  // ---- Ocean (shared wave function in GLSL + JS)
+  const WAVES=[[.96,.28,.10,.95,1.0],[-.37,.93,.16,.55,1.3],[.71,.71,.31,.22,1.9],[-.97,.24,.55,.09,2.5],[.2,-.98,.8,.05,3.1]];
+  const waveGLSL=WAVES.map(w=>`{vec2 dir=normalize(vec2(${w[0].toFixed(3)},${w[1].toFixed(3)}));float ph=dot(p,dir)*${w[2].toFixed(3)}+uTime*${w[4].toFixed(3)};h+=${w[3].toFixed(3)}*sin(ph);g+=${w[3].toFixed(3)}*${w[2].toFixed(3)}*cos(ph)*dir;}`).join('\n');
+  function waveJS(x,z,t){let h=0,gx=0,gz=0;for(const w of WAVES){const l=Math.hypot(w[0],w[1]),dx=w[0]/l,dz=w[1]/l,ph=(x*dx+z*dz)*w[2]+t*w[4];h+=w[3]*Math.sin(ph);const c=w[3]*w[2]*Math.cos(ph);gx+=c*dx;gz+=c*dz}return{h,gx,gz}}
+
+  const OCEAN_SIZE=900, SEG=mobile?160:240;
+  const oceanGeo=new THREE.PlaneGeometry(OCEAN_SIZE,OCEAN_SIZE,SEG,SEG);oceanGeo.rotateX(-Math.PI/2);
+  const oceanMat=new THREE.ShaderMaterial({
+    uniforms:{uTime:{value:0},uSun:{value:SUN},uFog:{value:FOG},uNear:{value:FOG_NEAR},uFar:{value:FOG_FAR}},
+    vertexShader:`uniform float uTime;varying vec3 vW;varying vec3 vN;
+      void main(){vec4 wp=modelMatrix*vec4(position,1.);vec2 p=wp.xz;float h=0.;vec2 g=vec2(0.);
+      ${waveGLSL}
+      float far=clamp(1.-length(p-cameraPosition.xz)/700.,0.,1.);wp.y+=h*far;vW=wp.xyz;vN=normalize(vec3(-g.x*far,1.,-g.y*far));gl_Position=projectionMatrix*viewMatrix*wp;}`,
+    fragmentShader:`uniform vec3 uSun,uFog;uniform float uNear,uFar;varying vec3 vW;varying vec3 vN;
+      void main(){vec3 n=normalize(vN);vec3 v=normalize(cameraPosition-vW);
+      float fr=pow(1.-max(dot(n,v),0.),4.);
+      vec3 deep=vec3(.015,.05,.11),shal=vec3(.05,.20,.30);
+      vec3 base=mix(deep,shal,clamp(vW.y*.35+.45,0.,1.));
+      vec3 skyc=mix(vec3(.25,.22,.38),vec3(1.,.55,.33),pow(max(dot(reflect(-v,n),uSun),0.),3.));
+      vec3 c=mix(base,skyc,clamp(fr*.9+.06,0.,1.));
+      vec3 hv=normalize(uSun+v);float sp=pow(max(dot(n,hv),0.),260.)*3.+pow(max(dot(n,hv),0.),40.)*.25;
+      c+=vec3(1.,.72,.45)*sp;
+      float foam=smoothstep(1.05,1.6,vW.y);c=mix(c,vec3(.85,.88,.95),foam*.35);
+      float d=length(cameraPosition-vW);c=mix(c,uFog,smoothstep(uNear,uFar,d));
+      gl_FragColor=vec4(c,1.);}`
+  });
+  const ocean=new THREE.Mesh(oceanGeo,oceanMat);ocean.frustumCulled=false;scene.add(ocean);
+
+  // ---- Lights
+  scene.add(new THREE.HemisphereLight(0x8fa0d8,0x2a1e22,.9));
+  const sunL=new THREE.DirectionalLight(0xffc89a,2.6);sunL.position.copy(SUN).multiplyScalar(200);scene.add(sunL);scene.add(sunL.target);
+  const fillL=new THREE.DirectionalLight(0x6a88ff,.6);fillL.position.set(-80,60,120);scene.add(fillL);
+
+  // ---- Helpers
+  const std=(c,o={})=>new THREE.MeshStandardMaterial({color:c,roughness:.65,metalness:.15,...o});
+  const box=(w,h,d,m,x=0,y=0,z=0,parent)=>{const b=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),m);b.position.set(x,y,z);(parent||scene).add(b);return b};
+  function canvasTex(w,h,draw){const c=document.createElement('canvas');c.width=w;c.height=h;draw(c.getContext('2d'),w,h);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;t.anisotropy=8;return t}
+
+  // ---- Ship
+  const ship=new THREE.Group();scene.add(ship);
+  const L=44,W=7.4,H=4.2;
+  {
+    const g=new THREE.BoxGeometry(L,H,W,40,10,4);const p=g.attributes.position;const cols=[];
+    for(let i=0;i<p.count;i++){let x=p.getX(i),y=p.getY(i),z=p.getZ(i);
+      const bow=L/2-8;if(x>bow){const k=(x-bow)/8;z*=1-k*k*.92;if(y<0)x-=k*1.6*(-y/H)}
+      if(x<-L/2+1)z*=.94;
+      if(y<0)z*=1-(-y/H)*.35;
+      p.setXYZ(i,x,y,z);
+      const yy=y+H/2;let c;
+      if(yy<1.5)c=[.62,.09,.07];else if(yy<1.75)c=[.92,.92,.95];else c=[.07,.09,.14];
+      cols.push(...c);
+    }
+    g.setAttribute('color',new THREE.Float32BufferAttribute(cols,3));g.computeVertexNormals();
+    const hull=new THREE.Mesh(g,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.55,metalness:.25}));hull.position.y=.3;ship.add(hull);
+  }
+  const DECK=.3+H/2;
+  // Superstructure
+  const white=std(0xe9edf3,{roughness:.5});const dark=std(0x10151f,{roughness:.3,metalness:.5});
+  box(6,8,6.6,white,-17,DECK+4,0,ship);
+  box(6.05,.55,6.65,dark,-17,DECK+6.4,0,ship);box(6.05,.55,6.65,dark,-17,DECK+4.6,0,ship);box(6.05,.55,6.65,dark,-17,DECK+2.8,0,ship);
+  box(3.4,1.1,10.2,white,-15.6,DECK+8.4,0,ship);box(3.45,.5,10.25,dark,-15.6,DECK+8.5,0,ship);
+  const funnel=new THREE.Mesh(new THREE.CylinderGeometry(1.1,1.3,4.4,20),std(0xd8332a));funnel.position.set(-19.2,DECK+9.6,0);ship.add(funnel);
+  const fband=new THREE.Mesh(new THREE.CylinderGeometry(1.12,1.12,.6,20),white);fband.position.set(-19.2,DECK+10.6,0);ship.add(fband);
+  const mast=new THREE.Mesh(new THREE.CylinderGeometry(.12,.12,7,8),white);mast.position.set(18,DECK+3.5,0);ship.add(mast);
+  // nav light
+  const navLight=new THREE.Sprite(new THREE.SpriteMaterial({map:glowTexture(),color:0xff5040,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending}));navLight.position.set(18,DECK+7.2,0);navLight.scale.setScalar(2.4);ship.add(navLight);
+  // Hull branding
+  const brand=canvasTex(1024,128,(g,w,h)=>{g.clearRect(0,0,w,h);g.fillStyle='#fff';g.font='800 92px Sora, Arial Black, sans-serif';g.textAlign='center';g.textBaseline='middle';g.fillText('IMPORTNOW',w/2,h/2+4)});
+  const brandMat=new THREE.MeshBasicMaterial({map:brand,transparent:true,depthWrite:false,fog:true});
+  const b1=new THREE.Mesh(new THREE.PlaneGeometry(17,2.1),brandMat);b1.position.set(1,DECK-1.2,W/2+.02);ship.add(b1);
+  const b2=b1.clone();b2.rotation.y=Math.PI;b2.position.z=-W/2-.02;ship.add(b2);
+
+  // Containers (instanced)
+  const corr=canvasTex(256,128,(g,w,h)=>{g.fillStyle='#fff';g.fillRect(0,0,w,h);for(let x=0;x<w;x+=8){g.fillStyle='rgba(0,0,0,.16)';g.fillRect(x,0,3,h);g.fillStyle='rgba(255,255,255,.4)';g.fillRect(x+4,0,1,h)}g.strokeStyle='rgba(0,0,0,.35)';g.lineWidth=6;g.strokeRect(0,0,w,h)});
+  const CW=3.05,CH=1.32,CD=1.5;
+  const palette=[0xd64533,0xef8a24,0x2f6fb3,0x1f9e8f,0xc9ced6,0x8c2f39,0xe3b23c,0xd64533,0x2f6fb3];
+  const slots=[];
+  for(let layer=0;layer<3;layer++)for(let c=0;c<9;c++)for(let r=0;r<4;r++){
+    if(layer===2&&(c===0||c===8)&&(r===0||r===3))continue;
+    slots.push({x:-11.6+c*3.12,y:DECK+CH/2+layer*(CH+.03),z:-2.4+r*1.6,col:palette[(c*3+r*5+layer*7)%palette.length]});
+  }
+  const N=slots.length;
+  const cont=new THREE.InstancedMesh(new THREE.BoxGeometry(CW,CH,CD),new THREE.MeshStandardMaterial({map:corr,roughness:.7,metalness:.25}),N);
+  cont.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+  slots.forEach((s,i)=>cont.setColorAt(i,new THREE.Color(s.col)));
+  ship.add(cont);
+  const dummy=new THREE.Object3D();
+
+  // Wake
+  const wake=new THREE.Mesh(new THREE.PlaneGeometry(90,16,1,1).rotateX(-Math.PI/2),new THREE.ShaderMaterial({transparent:true,depthWrite:false,
+    uniforms:{uT:{value:0},uA:{value:0}},
+    vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+    fragmentShader:`uniform float uT,uA;varying vec2 vUv;
+      float hs(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+      float ns(vec2 p){vec2 i=floor(p),f=fract(p);f=f*f*(3.-2.*f);return mix(mix(hs(i),hs(i+vec2(1,0)),f.x),mix(hs(i+vec2(0,1)),hs(i+vec2(1,1)),f.x),f.y);}
+      void main(){float x=vUv.x;float y=abs(vUv.y-.5)*2.;float w=mix(1.,.28,x);
+      float e=smoothstep(w,w-.3,y)*(.55+.45*smoothstep(w-.25,w-.05,y));
+      float n=ns(vec2(x*55.-uT*4.,vUv.y*14.))*.6+ns(vec2(x*120.-uT*7.,vUv.y*30.))*.4;
+      float a=e*smoothstep(0.,.75,x)*smoothstep(1.,.97,x)*n*uA;gl_FragColor=vec4(vec3(.92,.95,1.),a*.75);}`}));
+  wake.position.y=.9;scene.add(wake);
+
+  // ---- Ports
+  const flagCN=canvasTex(150,100,(g)=>{g.fillStyle='#de2910';g.fillRect(0,0,150,100);g.fillStyle='#ffde00';const star=(cx,cy,r)=>{g.beginPath();for(let i=0;i<10;i++){const a=-Math.PI/2+i*Math.PI/5,rr=i%2?r*.4:r;g.lineTo(cx+Math.cos(a)*rr,cy+Math.sin(a)*rr)}g.fill()};star(25,25,15);star(50,10,5);star(60,20,5);star(60,35,5);star(50,45,5)});
+  const flagIN=canvasTex(150,100,(g)=>{g.fillStyle='#ff9933';g.fillRect(0,0,150,34);g.fillStyle='#fff';g.fillRect(0,33,150,34);g.fillStyle='#138808';g.fillRect(0,66,150,34);g.strokeStyle='#000080';g.lineWidth=3;g.beginPath();g.arc(75,50,13,0,7);g.stroke();for(let i=0;i<24;i++){const a=i*Math.PI/12;g.beginPath();g.moveTo(75,50);g.lineTo(75+Math.cos(a)*13,50+Math.sin(a)*13);g.lineWidth=1;g.stroke()}});
+  const flags=[];
+  function port(x0,craneColor,flagTex,label){
+    const g=new THREE.Group();g.position.x=x0;scene.add(g);
+    const concrete=std(0x4a4f5c,{roughness:.9});
+    box(160,3.2,16,concrete,0,.9,-15,g);
+    box(160,.3,.4,std(0xffcf5c,{emissive:0x5a4010}),0,2.6,-7.2,g);
+    const cm=std(craneColor,{roughness:.5,metalness:.4});
+    for(const cx of [-10,12]){
+      for(const lx of [-2.2,2.2])for(const lz of [-9,-20]){box(.9,26,.9,cm,cx+lx,15.5,lz,g)}
+      box(5.3,1.2,1.2,cm,cx,27,-9,g);box(5.3,1.2,1.2,cm,cx,27,-20,g);
+      box(1.4,1.4,34,cm,cx,29,-5,g);
+      box(2.2,1.4,2.6,std(0x222833),cx,27.6,1,g);
+      box(.12,16,.12,std(0x111111),cx,19.5,1,g);
+      box(2.2,3,2.2,std(0x223044),cx,30.5,-21,g);
+    }
+    // stacked containers on quay
+    const qn=60,qc=new THREE.InstancedMesh(new THREE.BoxGeometry(CW,CH,CD),new THREE.MeshStandardMaterial({map:corr,roughness:.7}),qn);
+    for(let i=0;i<qn;i++){const col=i%15,row=Math.floor(i/15);const st=1+((i*7)%3);
+      dummy.position.set(-34+col*4.6,2.5+CH/2+(row%2)*CH,-12.5-Math.floor(row/2)*1.7-row*1.65);dummy.rotation.set(0,0,0);dummy.scale.set(1,1,1);dummy.updateMatrix();qc.setMatrixAt(i,dummy.matrix);qc.setColorAt(i,new THREE.Color(palette[(i*5+st)%palette.length]))}
+    g.add(qc);
+    // warehouse
+    box(30,9,10,std(0x6b7385),40,7,-19,g);box(30.2,1,10.2,std(craneColor),40,11.6,-19,g);
+    // flag
+    box(.25,14,.25,std(0xdddddd),-28,8.5,-8.5,g);
+    const fl=new THREE.Mesh(new THREE.PlaneGeometry(5.4,3.6,12,4),new THREE.MeshBasicMaterial({map:flagTex,side:THREE.DoubleSide}));fl.position.set(-25.2,13.6,-8.5);g.add(fl);
+    flags.push(fl);
+    // lamp glows
+    for(let lx=-70;lx<=70;lx+=28){box(.2,8,.2,std(0x999999),lx,6.6,-7.8,g);const s=new THREE.Sprite(new THREE.SpriteMaterial({map:glowTexture('rgba(255,240,200,1)','rgba(255,200,120,0)'),color:0xffe0b0,transparent:true,depthWrite:false,blending:THREE.AdditiveBlending}));s.position.set(lx,10.8,-7.8);s.scale.setScalar(3);g.add(s)}
+    return g;
+  }
+  const SAIL=420;
+  port(0,0xc23b2c,flagCN);
+  port(SAIL,0xf08a24,flagIN);
+  // distant islands for sense of motion
+  const islandMat=std(0x2a2b3d,{roughness:1,flatShading:true});
+  for(let i=0;i<14;i++){const r=6+Math.random()*16;const m=new THREE.Mesh(new THREE.ConeGeometry(r,r*.5+Math.random()*8,7),islandMat);m.position.set(40+i*30+Math.random()*20,0,-120-Math.random()*140*(i%2?1:-.0));if(i%2===0)m.position.z=-150-Math.random()*80;scene.add(m)}
+
+  // ---- Timeline
+  const shipX=p=>p<.42?0:p>.86?SAIL:ease((p-.42)/.44)*SAIL;
+  const KF=[
+    {p:0,   o:[42,30,56],  l:[0,4,0]},
+    {p:.14, o:[8,38,62],   l:[0,4,-4]},
+    {p:.28, o:[-38,22,46], l:[2,5,-2]},
+    {p:.42, o:[-58,14,30], l:[6,4,0]},
+    {p:.52, o:[-44,9,34],  l:[8,4,0]},
+    {p:.64, o:[38,10,54],  l:[0,4,0]},
+    {p:.76, o:[58,14,40],  l:[-6,4,0]},
+    {p:.86, o:[30,24,58],  l:[0,4,-6]},
+    {p:1,   o:[-18,48,84], l:[4,2,-10]},
+  ];
+  const vA=new THREE.Vector3(),vB=new THREE.Vector3();
+  function camAt(p,sx){
+    let i=0;while(i<KF.length-2&&p>KF[i+1].p)i++;
+    const a=KF[i],b=KF[i+1];const t=smooth(clamp((p-a.p)/(b.p-a.p),0,1));
+    const o=vA.set(lerp(a.o[0],b.o[0],t),lerp(a.o[1],b.o[1],t),lerp(a.o[2],b.o[2],t));
+    const l=vB.set(lerp(a.l[0],b.l[0],t),lerp(a.l[1],b.l[1],t),lerp(a.l[2],b.l[2],t));
+    camera.position.set(sx+o.x*camDist,o.y*camDist,o.z*camDist);camera.lookAt(sx+l.x,l.y,l.z);
+  }
+
+  function updateContainers(p){
+    // load: p 0.06..0.36   unload: p 0.88..0.99
+    for(let i=0;i<N;i++){const s=slots[i];
+      const ld=clamp((p-(.06+i/N*.28))/.035,0,1), e=ease(ld);
+      const ul=clamp((p-(.885+(N-1-i)/N*.09))/.02,0,1), u=ease(ul);
+      let x=s.x,y=s.y+(1-e)*18,z=s.z,sc=ld>0?1:0;
+      if(u>0){y=s.y+Math.sin(u*Math.PI)*14+u*-1.5;z=lerp(s.z,-13.5,u);sc=u>.98?0:1}
+      dummy.position.set(x,y,z);dummy.rotation.set(0,(1-e)*.25,0);dummy.scale.setScalar(sc);dummy.updateMatrix();cont.setMatrixAt(i,dummy.matrix);
+    }
+    cont.instanceMatrix.needsUpdate=true;
+  }
+
+  let camDist=1.15;
+  function resize(){const w=host.clientWidth,h=host.clientHeight;renderer.setSize(w,h,false);camera.aspect=w/h;camera.fov=w<820?58:42;
+    // desktop: push the ship to the right of the step list
+    if(w>820)camera.setViewOffset(w,h,-w*.17,0,w,h);else camera.clearViewOffset();
+    camDist=w<820?1.25:1.15;camera.updateProjectionMatrix()}
+  addEventListener('resize',resize);resize();
+
+  let target=0,prog=0,lastStep=-1,lastX=0,visible=false;
+  // preview helper: add #snap to the URL to skip scroll smoothing
+  const snap=location.hash==='#snap';
+  new IntersectionObserver(([e])=>visible=e.isIntersecting,{rootMargin:'200px'}).observe(section);
+  function readScroll(){const r=section.getBoundingClientRect();target=clamp(-r.top/(r.height-innerHeight),0,1)}
+  addEventListener('scroll',readScroll,{passive:true});readScroll();prog=target;
+
+  const clock=new THREE.Clock();
+  function frame(){
+    requestAnimationFrame(frame);
+    const dt=Math.min(clock.getDelta(),.05);
+    if(!visible)return;
+    const t=clock.elapsedTime;
+    prog+=(target-prog)*(reduceMotion||snap?1:Math.min(1,dt*4.5));
+    const p=prog;
+
+    const sx=shipX(p);
+    const speed=Math.abs(sx-lastX)/Math.max(dt,.001);lastX=sx;
+    const wv=waveJS(sx,0,t);const wf=waveJS(sx+15,0,t),wb=waveJS(sx-15,0,t);
+    ship.position.set(sx,wv.h*.55-.15,0);
+    ship.rotation.z=Math.atan2(wf.h-wb.h,30)*.6;
+    ship.rotation.x=wv.gz*.35;
+    updateContainers(p);
+
+    const cell=OCEAN_SIZE/SEG;ocean.position.x=Math.round(sx/cell)*cell;
+    oceanMat.uniforms.uTime.value=t;
+    wake.position.x=sx-L/2-44;wake.material.uniforms.uT.value=t;
+    wake.material.uniforms.uA.value+=(clamp(speed/30,0,1)-wake.material.uniforms.uA.value)*.08;
+    for(const f of flags){const pa=f.geometry.attributes.position;for(let i=0;i<pa.count;i++){const x=pa.getX(i);pa.setZ(i,Math.sin(x*1.4-t*5)*.25*(x+2.7)/5.4)}pa.needsUpdate=true}
+    navLight.material.opacity=.6+.4*Math.sin(t*4);
+
+    camAt(p,sx);
+    sky.position.copy(camera.position);
+    renderer.render(scene,camera);
+
+    // UI
+    const si=Math.min(5,Math.floor(p*6.0001));
+    if(si!==lastStep){steps.forEach((el,i)=>{el.classList.toggle('on',i===si);el.classList.toggle('done',i<si)});lastStep=si}
+    const rp=sx/SAIL;fill.style.width=(rp*100)+'%';boat.style.left=(rp*100)+'%';
+    const day=p<.42?Math.round(p/.42*7):p<.86?7+Math.round((p-.42)/.44*23):30+Math.round((p-.86)/.14*5);
+    dayEl.textContent='Day '+day;
+  }
+  frame();
+})();
+</script>
+</body>
+</html>
